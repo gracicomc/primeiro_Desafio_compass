@@ -19,7 +19,7 @@
 ### R: P.O é o representante do cliente dentro do time. É ele quem detém e organiza o product backlog. O ”Owner” é justamente por ele “ter” o product backlog.
 
 ## 5. Qual o comando para criação de um novo repositório no Git? 
-###  R: 
+###  R: Dentro da pasta desejada, usa-se:
 ```bash
 $ git init
 ```
@@ -33,7 +33,7 @@ $ git init
 ## 8. Com o Git Você pode propor mudanças (adicioná-las ao Index) usando um comando. Qual é esse comando? 
 ### R: 
 ```bash
-$ git add
+$ git add <nome do arquivo>
 ```
 
 ## 9. O que é a Branch master e para que serve? 
@@ -42,10 +42,7 @@ $ git add
 ## 10. Quais são os comandos usados para atualizar um repositório local e fazer merge de um outro branch ao seu branch ativo? 
 ### R: Para atualizar um repositório local:
 ```bash
-$ git cd <caminho do repositório desejado>
-$ git status //para verificar quais itens sofreram modificação
-$ git add <nome do item desejado>
-$ git commit <commitar as mudanças do item que foi selecionado>
+$ git pull
 ```
 ### Para fazer merge de um branche para outro, usa-se:
 ```bash
@@ -55,9 +52,9 @@ $ git merge <nome da branch>
 ## 11. Pensando em Bases de dados, sendo elas, Relacionais (SQL) e Não Relacionais (NoSQL). Quais alternativas abaixo estão corretas? 
 
 - [ ] MySQL = MongoDB 
-- [x] PostgreSQL = Redis 
+- [ ] PostgreSQL = Redis 
 - [ ] Oracle = CouchDB 
-- [ ] Todas as alternativas estão corretas. 
+- [x] Todas as alternativas estão corretas. 
 
 
 ## 12. O que é MongoDB? 
@@ -69,7 +66,7 @@ $ git merge <nome da branch>
 ## 14. Qual a diferença entre git e GitHub? 
 ### R: Git é um sistema de controle de versões de repositórios locais e/ou remotos. GitHub é o ambiente onde é possível ter um repositório remoto.
 
-## 15.Quais os dois verbos http que podemos utiizar para realizar um update? Explique a diferença entre eles. 
+## 15. Quais os dois verbos http que podemos utiizar para realizar um update? Explique a diferença entre eles. 
 ### R: Existem os métodos GET e POST. Sendo o GET utilizado para receber dados dentro da URL com parâmetros não sigilosos; já o POST serve para submeter dados, geralmente sigilosos (como o de um login) onde os parâmetros serão repassados no corpo da requisição.
 
 ## 16. Qual o status code que pode ser usado na criação de um novo usuário? 
@@ -96,16 +93,20 @@ $ git merge <nome da branch>
 - [ ] C:\ProgramData\MySQL\MySQL Server 5.6\data\mydatabase\mytable.frm 
 - [ ] C:\ProgramData\MySQL\MySQL Server 5.6\data\mydatabase\mytable.ibd 
 - [ ] C:\ProgramData\MySQL\MySQL Server 5.6\data\mydatabase\data-recovery 
-### Na minha máquina o caminho até o data (C:\ProgramData\MySQL\MySQL Server 8.0\Data) . Nesse caminho éonde ficam os bancos de dados criados.
+### Verifiquei no meu pc e o caminho vai até a pasta data (C:\ProgramData\MySQL\MySQL Server 8.0\Data). Nesse caminho é onde ficam os bancos de dados criados.
 
 ## 20. Qual a extensão ".xxx" que contêm os dados da tabela? 
 ### R: Extensao.ibd
 
 ## 21. Qual comando usa-se para extração de arquivos em MongoDB durante a instalação? 
-### R: 
+### R: Essa foi a única questão em que não sabia nem por onde começar. Pesquisando, encontrei a sintaxe do comando extract do mongoDB, que é:
+```
+mongoexport --collection=<coll> <options> <connection-string>
+```
+Porém não tenho certeza se é isso mesmo.
 
 ## 22. Para que usamos o MongoDB?
-### R: Utilizamos o MongoDB para armazenar um grande números de dados
+### R: Utilizamos o MongoDB para armazenar um grande números de dados e por não ser orientado a tabelas, é possível fazer uma busca de forma mais eficiente.
 
 ## 23. Exemplifique para que serve os metódos http 1xx, 2xx, 3xx, 4xx e 5xx. De uma forma macro (geral)! 
 ### R: 1xx - para demonstrar apenas que a requisição foi recebida pelo servidor
