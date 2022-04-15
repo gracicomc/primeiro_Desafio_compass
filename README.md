@@ -64,7 +64,7 @@ $ git merge <nome da branch>
 ## R: MongoDB é um banco de dados não relacional, orientado a documentos.
 
 # 13. O que é o MySQL? 
-## R: MySQL é um Sistema de Gerenciamento de Banco de Dados ou SGBD que permite manipular dados com SQL.
+## R: MySQL é um Sistema de Gerenciamento de Banco de Dados ou SGBD que permite manipular dados de um BD relacional com SQL.
 
 # 14. Qual a diferença entre git e GitHub? 
 ## R: Git é um sistema de controle de versões de repositórios locais e/ou remotos. GitHub é o ambiente onde é possível ter um repositório remoto.
