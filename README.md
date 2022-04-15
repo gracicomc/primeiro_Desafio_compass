@@ -20,9 +20,9 @@
 
 ## 5. Qual o comando para criação de um novo repositório no Git? 
 ###  R: 
-~~~shell
+```bash
 $ git init
-~~~
+```
 
 ## 6. O que é o HTTP? 
 ### R: O HTTP é um protocolo que define as regras de comunicação entre cliente e servidor na Internet.
@@ -32,25 +32,25 @@ $ git init
 
 ## 8. Com o Git Você pode propor mudanças (adicioná-las ao Index) usando um comando. Qual é esse comando? 
 ### R: 
-~~~shell
-$ git pull 
-~~~
+```bash
+$ git add
+```
 
 ## 9. O que é a Branch master e para que serve? 
 ### R: As branches delimitam onde cada alteração vai acontecer, sendo a branch master a principal, ao iniciar o projeto, a primeira branch que teremos será a branch master. Ela serve para conter o conteúdo total do projeto. As demais serão ramificações dela. 
 
 ## 10. Quais são os comandos usados para atualizar um repositório local e fazer merge de um outro branch ao seu branch ativo? 
-### R:Para atualizar um repositório local:
-~~~bash
+### R: Para atualizar um repositório local:
+```bash
 $ git cd <caminho do repositório desejado>
 $ git status //para verificar quais itens sofreram modificação
 $ git add <nome do item desejado>
 $ git commit <commitar as mudanças do item que foi selecionado>
-~~~
+```
 ### Para fazer merge de um branche para outro, usa-se:
-~~~shell
+```bash
 $ git merge <nome da branch> 
-~~~
+```
 
 ## 11. Pensando em Bases de dados, sendo elas, Relacionais (SQL) e Não Relacionais (NoSQL). Quais alternativas abaixo estão corretas? 
 
@@ -76,7 +76,11 @@ $ git merge <nome da branch>
 ### R: Pode ser usado o status code 201. Ele significa que a requisição e a criação de um novo recurso foram bem sucedidos.
 
 ## 17. Quais são os três status code que podem ser utilizados para realizar o delete? 
-### R: 
+### R: Fiquei com dúvida nessa questão, mas procurando pelo developer mozila, encontrei as seguintes informações:
+### Se um método DELETE for aplicado com sucesso, os três status codes que podem ser utilizados são:
+###Um status code 202 (Accepted) se a ação provavelmente teve sucesso, porém ainda não foi realizada.
+###Um status code 204 (No Content) se a ação foi realizada e nenhuma outra informação deve ser fornecida.
+###Um status code 200 (OK) se a ação foi realizada e a mensagem de resposta inclui uma representação descrevendo o status.
 
 ## 18. Qual a extensão ".xxx" contêm as definições da tabela? 
 
