@@ -10,7 +10,7 @@
 #### R: É um framework simples para gerenciar projetos complexos. Sua finalidade é justamente “quebrar” um projeto complexo em várias partes para fazer pequenas entregas. É um método para gerenciar uma equipe.
 
 ### 2. Como funciona o método Scrum? 
-### R: O método scrum funciona principalmente com time-boxes, que são caixas de tempo com capacidade definida, rígida e não negociável. Cada time-box possui um tempo limite pré determinado que será delimitado dependendo de cada projeto. Segue as seguintes etapas: product backlog, sprint backlog, planning meeting, sprint, daily sprint, review meeting e a sprint retrospective.
+#### R: O método scrum funciona principalmente com time-boxes, que são caixas de tempo com capacidade definida, rígida e não negociável. Cada time-box possui um tempo limite pré determinado que será delimitado dependendo de cada projeto. Segue as seguintes etapas: product backlog, sprint backlog, planning meeting, sprint, daily sprint, review meeting e a sprint retrospective.
 
 ### 3. O que é Git?
 #### R: Git é um sistema de controle de versões de software. 
@@ -79,7 +79,7 @@ $ git merge <nome da branch>
 #### Um status code 204 (No Content) se a ação foi realizada e nenhuma outra informação deve ser fornecida.
 #### Um status code 200 (OK) se a ação foi realizada e a mensagem de resposta inclui uma representação descrevendo o status.
 
-## 18. Qual a extensão ".xxx" contêm as definições da tabela? 
+### 18. Qual a extensão ".xxx" contêm as definições da tabela? 
 
 - [x] Commands.myi 
 - [ ] Commands.frm 
