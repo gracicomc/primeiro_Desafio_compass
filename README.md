@@ -91,9 +91,8 @@ $ git merge <nome da branch>
 
 - [ ] /{database_name_folder}/{database_tables_and_files}. 
 - [ ] C:\ProgramData\MySQL\MySQL Server 5.6\data\mydatabase\mytable.frm 
-- [ ] C:\ProgramData\MySQL\MySQL Server 5.6\data\mydatabase\mytable.ibd 
+- [x] C:\ProgramData\MySQL\MySQL Server 5.6\data\mydatabase\mytable.ibd 
 - [ ] C:\ProgramData\MySQL\MySQL Server 5.6\data\mydatabase\data-recovery 
-#### Verifiquei no meu pc e o caminho vai até a pasta data (C:\ProgramData\MySQL\MySQL Server 8.0\Data). Nesse caminho é onde ficam os bancos de dados criados.
 
 ### 20. Qual a extensão ".xxx" que contêm os dados da tabela? 
 #### R: Extensao.ibd
