@@ -41,7 +41,7 @@ $ git pull
 
 ## 10. Quais são os comandos usados para atualizar um repositório local e fazer merge de um outro branch ao seu branch ativo? 
 ### R:Para atualizar um repositório local:
-~~~shell
+~~~bash
 $ git cd <caminho do repositório desejado>
 $ git status //para verificar quais itens sofreram modificação
 $ git add <nome do item desejado>
