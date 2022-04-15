@@ -19,7 +19,10 @@
 ## R: P.O é o representante do cliente dentro do time. É ele quem detém e organiza o product backlog. O ”Owner” é justamente por ele “ter” o product backlog.
 
 # 5. Qual o comando para criação de um novo repositório no Git? 
-##  R: ` $ git init `  
+##  R: 
+~~~shell
+$ git init
+~~~
 
 # 6. O que é o HTTP? 
 ## R: O HTTP é um protocolo que define as regras de comunicação entre cliente e servidor na Internet.
