@@ -95,7 +95,7 @@ $ git merge <nome da branch>
 - [ ] C:\ProgramData\MySQL\MySQL Server 5.6\data\mydatabase\data-recovery 
 
 ### 20. Qual a extensão ".xxx" que contêm os dados da tabela? 
-#### R: Extensao.ibd
+#### R: extensao.myd
 
 ### 21. Qual comando usa-se para extração de arquivos em MongoDB durante a instalação? 
 #### R: Essa foi a única questão em que não sabia nem por onde começar. Pesquisando, encontrei a sintaxe do comando extract do mongoDB, que é:
